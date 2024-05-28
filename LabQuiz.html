@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>LabQuiz</title>
+</head>
+<body>
+  <header>
+    <h1>LabQuiz</h1>
+  </header>
+
+  <main>
+    <section id="description">
+      <p>Bem-vindo ao LabQuiz! Teste seus conhecimentos respondendo a perguntas sobre diversos temas.</p>
+      <p>Digite seu nome e clique em "Iniciar" para começar o quiz.</p>
+    </section>
+
+    <section id="player-info">
+      <label for="player-name">Digite seu nome:</label>
+      <input type="text" id="player-name" name="player-name">
+      <button id="start-button">Iniciar</button>
+    </section>
+
+    <section id="quiz">
+      <div class="question">
+        <label for="q1">Pergunta 1 (Quantos filhos tem o HTML atualmente?):</label>
+        <input type="text" id="q1" name="q1">
+      </div>
+
+      <div class="question">
+        <label for="q2">Pergunta 2 (Quantas terras existem?):</label>
+        <input type="radio" id="q2a" name="q2" value="opcao1">
+        <label for="q2a">Opção 1</label>
+        <input type="radio" id="q2b" name="q2" value="opcao2">
+        <label for="q2b">Opção 2</label>
+      </div>
+
+      <div class="question">
+        <label for="q3">Pergunta 3 (Viagem no tempo é possível?):</label>
+        <input type="checkbox" id="q3a" name="q3" value="opcao1">
+        <label for="q3a">Opção 1 (sim)</label>
+        <input type="checkbox" id="q3b" name="q3" value="opcao2">
+        <label for="q3b">Opção 2 (não)</label>
+        <input type="checkbox" id="q3c" name="q3" value="opcao3">
+        <label for="q3c">Opção 3 (talvez)</label>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 LabQuiz. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
